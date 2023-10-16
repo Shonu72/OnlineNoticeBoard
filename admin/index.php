@@ -72,7 +72,8 @@ header('location:login.php');
                     <!-- find users' image if image not found then show dummy image -->
 
 
-                    <li><a href="#"><img src="../images/person.jpg" width="100" height="100" alt="not found" /></a></li>
+                    <li><a href="#"><img src="../images/profile.png" width="100" height="100" alt="not found" /></a>
+                    </li>
 
 
 

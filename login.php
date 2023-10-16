@@ -69,9 +69,9 @@ $err="<font color='red'>Invalid login details</font>";
 <body>
 
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.php">Noticey</a><button data-toggle="collapse"
-                data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
-                data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
+        <div class="container"><a class="navbar-brand" href="index.php">Online Notice Board</a><button
+                data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+                type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
@@ -91,8 +91,8 @@ $err="<font color='red'>Invalid login details</font>";
 
 
 
-    <h2 style="text-align:center">Login Form</h2><br>
-    <form method="post" class="center" style="width:30%">
+    <h2 style="text-align:center" style="">Login Form</h2><br>
+    <form method="post" class="center" style="width:35%">
 
         <div class="row">
             <div class="col-sm-4"></div>
@@ -102,14 +102,14 @@ $err="<font color='red'>Invalid login details</font>";
 
 
         <div class="row">
-            <div class="col-sm-4">Enter YOur Email</div>
+            <div class="col-sm-5">Enter Email</div>
             <div class="col-sm-5">
                 <input type="email" name="e" class="form-control" />
             </div>
         </div><br>
 
         <div class="row">
-            <div class="col-sm-4">Enter YOur Password</div>
+            <div class="col-sm-5">Enter Password</div>
             <div class="col-sm-5">
                 <input type="password" name="p" class="form-control" />
             </div>

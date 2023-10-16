@@ -78,9 +78,9 @@ $err="<font color='blue'>Registration successfull !!</font>";
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.php">Noticey</a><button data-toggle="collapse"
-                data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
-                data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
+        <div class="container"><a class="navbar-brand" href="index.php">Online Notice Board</a><button
+                data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+                type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
@@ -98,7 +98,7 @@ $err="<font color='blue'>Registration successfull !!</font>";
 
 
     <br><br><br><br><br><br>
-    <h2 style="text-align:center;">Registration Form</h2>
+    <h2 style="text-align:center;">Registration Form</h2><br>
     <form method="post" enctype="multipart/form-data">
         <table class="table table-bordered center" style="width:50%;border:1px solid black; ">
             <Tr>
@@ -127,18 +127,18 @@ $err="<font color='blue'>Registration successfull !!</font>";
             <tr>
                 <td>Select Your Gender</td>
                 <Td>
-                    Male<input type="radio" name="gen" value="m" required />
-                    Female<input type="radio" name="gen" value="f" />
+                    <input type="radio" name="gen" value="m" required /> Male
+                    <input type="radio" name="gen" value="f" /> Female
                 </td>
             </tr>
 
             <tr>
                 <td>Choose Your hobbies</td>
                 <Td>
-                    Reading<input value="reading" type="checkbox" name="hob[]" />
-                    Singing<input value="singin" type="checkbox" name="hob[]" />
+                    <input value="reading" type="checkbox" name="hob[]" /> Reading
+                    <input value="singin" type="checkbox" name="hob[]" /> Singing
 
-                    Playing<input value="playing" type="checkbox" name="hob[]" />
+                    <input value="playing" type="checkbox" name="hob[]" /> Playing
                 </td>
             </tr>
 

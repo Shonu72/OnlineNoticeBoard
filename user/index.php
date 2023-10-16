@@ -72,7 +72,7 @@ $users=mysqli_fetch_assoc($sql);
                 </button>
                 <a class="navbar-brand"
                     style="font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;color:#fec503;font-size: 1.75em;"
-                    href="#">Noticey</a>
+                    href="#">Online Notice Board</a>
                 <a class="navbar-brand" href="#">Hello <?php echo $users['name'];?></a>
                 <sapn> .</sapn>
             </div>

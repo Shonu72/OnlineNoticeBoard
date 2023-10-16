@@ -1,4 +1,4 @@
 <?php
-$conn=mysqli_connect("localhost","bhargav","password","online_notice");
+$conn=mysqli_connect("localhost","root","","online_notice");
 
 ?>
